@@ -1,0 +1,42 @@
+/*
+
+We refernece id is stylesheets by placing a hash infront of id name which was used in HTML page.
+
+*/
+
+#pg {
+  color: red;
+}
+
+
+/*
+
+We refernece class is stylesheets by placing a dot infront of class name which was used in HTML page.
+
+*/
+
+
+/*
+
+This will apply styling to every html element having class content.
+
+*/
+
+.content {
+  color: green;
+}
+
+/*
+
+Notice here I am styling only h2 elements whose class is content. It will have zero effect or no effect on other html tags having class content.
+
+*/
+
+
+h2.content {
+  color: coral;
+}
+#logo-text-beneath {
+  color: #fff;
+  letter-spacing: 1px;
+}
